@@ -1,0 +1,35 @@
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    padding: 40px 0;
+}
+
+footer p span {
+    font-family: 'Lobster Two', sans-serif;
+    color: #DBA39A;
+}
+
+footer hr {
+    margin: 0 300px;
+}
+
+@media screen and (max-width: 1440px) {
+    footer hr {
+        margin: 0 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer hr {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer hr {
+        margin: 0 20px;
+    }
+}

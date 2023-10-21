@@ -1,0 +1,17 @@
+header .hero img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+    header .hero img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    header .hero img {
+        height: 300px;
+    }
+}
